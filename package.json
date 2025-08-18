@@ -1,0 +1,42 @@
+{
+  "name": "crdt-pixel-art",
+  "version": "1.0.0",
+  "description": "Simple collaborative apps using CRDT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Manish061/crdt-pixel-art.git"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "keywords": [
+    "CRDT",
+    "collaboration"
+  ],
+  "author": "Manish Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manish061/crdt-pixel-art/issues"
+  },
+  "homepage": "https://github.com/Manish061/crdt-pixel-art#readme",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.33.0",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "24.3.0",
+    "@types/react": "19.1.10",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "tailwindcss": "^4.1.12",
+    "typescript": "5.9.2"
+  }
+}
